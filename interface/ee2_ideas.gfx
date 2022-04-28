@@ -435,6 +435,12 @@ spriteTypes = {
 		name = "GFX_idea_RCT_pumpkin_swirl"
 		texturefile = "gfx/interface/ideas/cousin_pumpkin.dds"
 	}
+	#PCB
+	SpriteType = {
+		name = "GFX_idea_PCB_feather_book"
+		texturefile = "gfx/interface/ideas/PCB/PCB_feather_book.dds"
+	}
+	#BRZ
 	SpriteType = {
 		name = "GFX_idea_BRZ_count_ignatius"
 		texturefile = "gfx/interface/ideas/BRZ/BRZ_count_ignatius.dds"
@@ -546,9 +552,5 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_NCR_stable_tech"
 		texturefile = "gfx/interface/ideas/NCR/NCR_stable_tech.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_HIP_shell_oil"
-		texturefile = "gfx/interface/ideas/HIP/HIP_shell_oil.dds"
 	}
 }
