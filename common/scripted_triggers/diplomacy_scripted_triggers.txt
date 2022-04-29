@@ -160,6 +160,21 @@ DIPLOMACY_REVOKE_GUARANTEE_ENABLE_TRIGGER = {
 			always = no
 		}
 	}
+	else_if = {
+		limit = {
+			OR = {
+			    has_idea = WIN_legation_profits
+				has_idea = WIN_legation_profits_2
+			}
+			FROM = {
+			    tag = WIN
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = WIN_legation_benefactor_tp
+			always = no
+		}
+	}
 }
 
 DIPLOMACY_RELEASE_NATION_ENABLE_TRIGGER = {
@@ -262,6 +277,25 @@ DIPLOMACY_RELEASE_NATION_ENABLE_TRIGGER = {
 					option = PEACE_ONLY
 				}
 			}
+			original_tag = HIP
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_ALLOW_RELEASE_NATIONS_NOT_CHIROPTERRA_TOOLTIP
+			NOT = { FROM = { tag = BAT } }
+		}
+	}
+	if = {
+		limit = {
+			OR = {
+				has_game_rule = {
+					rule = allow_release_nations
+					option = FREE
+				}
+				has_game_rule = {
+					rule = allow_release_nations
+					option = PEACE_ONLY
+				}
+			}
 			original_tag = FRN
 		}
 		custom_trigger_tooltip = {
@@ -269,49 +303,23 @@ DIPLOMACY_RELEASE_NATION_ENABLE_TRIGGER = {
 			NOT = { FROM = { tag = JES } }
 		}
 	}
-	else_if = {
+	if = {
 		limit = {
-			original_tag = KIR
-			FROM = {
-				OR = {
-					original_tag = KIC
-					original_tag = KIS
+			OR = {
+				has_game_rule = {
+					rule = allow_release_nations
+					option = FREE
+				}
+				has_game_rule = {
+					rule = allow_release_nations
+					option = PEACE_ONLY
 				}
 			}
+			original_tag = CTH
 		}
 		custom_trigger_tooltip = {
-			tooltip = KIR_CANNOT_RELEASE_RIVAL_FACTION
-			always = no
-		}
-	}
-	else_if = {
-		limit = {
-			original_tag = KIC
-			FROM = {
-				OR = {
-					original_tag = KIR
-					original_tag = KIS
-				}
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = KIR_CANNOT_RELEASE_RIVAL_FACTION
-			always = no
-		}
-	}
-	else_if = {
-		limit = {
-			original_tag = KIS
-			FROM = {
-				OR = {
-					original_tag = KIR
-					original_tag = KIC
-				}
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = KIR_CANNOT_RELEASE_RIVAL_FACTION
-			always = no
+			tooltip = RULE_ALLOW_RELEASE_NATIONS_NOT_COLTVA_TOOLTIP
+			NOT = { FROM = { tag = CVA } }
 		}
 	}
 }
@@ -353,18 +361,6 @@ DIPLOMACY_MILACC_ENABLE_TRIGGER = {
 		}
 	}
 }
-DIPLOMACY_REVOKE_MILACC_ENABLE_TRIGGER = {
-	if = {
-		limit = {
-			has_country_flag = KIS_CORPORATE_WAR_disable_revoke_milacc
-			FROM = { has_country_flag = KIS_CORPORATE_WAR_disable_revoke_milacc }
-		}
-		custom_trigger_tooltip = {
-			tooltip = KIS_CORPORATE_WAR_disable_revoke_milacc_tt
-			always = no
-		}
-	}
-}
 DIPLOMACY_OFFER_MILACC_ENABLE_TRIGGER = {
 	if = {
 		limit = {
@@ -400,18 +396,6 @@ DIPLOMACY_OFFER_MILACC_ENABLE_TRIGGER = {
 		custom_trigger_tooltip = {
 			tooltip = RULE_ALLOW_MILITARY_ACCESS_SAME_IDEOLOGY_TT
 			has_government = FROM
-		}
-	}
-}
-DIPLOMACY_REVOKE_OFFER_MILACC_ENABLE_TRIGGER = {
-	if = {
-		limit = {
-			has_country_flag = KIS_CORPORATE_WAR_disable_revoke_milacc
-			FROM = { has_country_flag = KIS_CORPORATE_WAR_disable_revoke_milacc }
-		}
-		custom_trigger_tooltip = {
-			tooltip = KIS_CORPORATE_WAR_disable_revoke_milacc_tt
-			always = no
 		}
 	}
 }
@@ -763,6 +747,50 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 	}
 	else_if = {
 		limit = {
+			OR = {
+			    has_idea = WIN_legation_profits
+				has_idea = WIN_legation_profits_2
+			}
+			FROM = {
+			    tag = WIN
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = WIN_legation_benefactor_tp
+			always = no
+		}
+	}
+	else_if = {
+		limit = {
+		    tag = WIN
+			FROM = {
+				OR = {
+			    	has_idea = WIN_legation_profits
+					has_idea = WIN_legation_profits_2
+				}
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = WIN_legation_benefactor_2_tp
+			always = no
+		}
+	}
+	else_if = {
+		limit = {
+			tag = BAT
+		}
+		custom_trigger_tooltip = {
+			tooltip = BAT_wargoals_unlocked_tp
+			NOT = {
+			    OR = {
+			        has_focus_tree = tzintacalia_tree
+					has_focus_tree = tzintacalia_tree_4
+				}
+			}
+		}
+	}
+	else_if = {
+		limit = {
 			has_game_rule = {
 				rule = allow_wargoals
 				option = LIMITED
@@ -783,9 +811,6 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 			NOT = {
 			    has_idea = eqs_civil_war
 			}
-		}
-		else = {
-			hidden_trigger = { is_ai = no }
 		}
 	}
 	else_if = {
@@ -938,6 +963,20 @@ DIPLOMACY_LEAVE_FACTION_ENABLE_TRIGGER = {
 			always = no
 		}
 	}
+	else_if = {
+		limit = {
+			tag = BAT
+			OR = {
+				has_idea = BAT_lunar_dominion
+				has_idea = BAT_lunar_dominion_2
+				has_idea = BAT_lunar_dominion_3
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = BAT_loyal_subjects_tp
+			always = no
+		}
+	}
     else_if = {
 		limit = {
 			original_tag = EQC
@@ -961,19 +1000,6 @@ DIPLOMACY_LEAVE_FACTION_ENABLE_TRIGGER = {
 			NOT = { has_global_flag = river_federation_founded }
 		}
 		always = no
-	}
-	else_if = {
-		limit = {
-			ROOT = { 
-				original_tag = KIR
-				has_war_with = KIC
-			}
-			FROM = { original_tag = KIS }
-		}
-		custom_trigger_tooltip = {
-			tooltip = KIR_cannot_leave_united_front_conditional
-			always = no
-		}
 	}
 }
 DIPLOMACY_ASSUME_FACTION_LEADERSHIP_ENABLE_TRIGGER = {
@@ -1044,6 +1070,23 @@ DIPLOMACY_KICK_FROM_FACTION_ENABLE_TRIGGER = {
 		}
 		custom_trigger_tooltip = {
 			tooltip = KICK_FROM_FACTION_BLOCKED_TOOLTIP
+			always = no
+		}
+	}
+	else_if = {
+		limit = {
+		    tag = NLR
+			FROM = {
+				tag = BAT
+				OR = {
+					has_idea = BAT_lunar_dominion
+					has_idea = BAT_lunar_dominion_2
+					has_idea = BAT_lunar_dominion_3
+				}
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = BAT_loyal_subjects_2_tp
 			always = no
 		}
 	}
@@ -1296,6 +1339,18 @@ DIPLOMACY_CALL_ALLY_ENABLE_TRIGGER = {
 			has_idea = FRN_insurgency
 		}
 	}
+	else_if = {
+		limit = {
+			OR = {
+				has_idea = TBK_confusing_war
+				FROM = { has_idea = TBK_confusing_war }
+			}
+		}
+		NOT = {
+			has_idea = TBK_confusing_war
+			FROM = { has_idea = TBK_confusing_war }
+		}
+	}
 }
 
 DIPLOMACY_JOIN_ALLY_ENABLE_TRIGGER = {
@@ -1351,6 +1406,18 @@ DIPLOMACY_JOIN_ALLY_ENABLE_TRIGGER = {
 			FROM = {
 				has_idea = FRN_insurgency
 			}
+		}
+	}
+	else_if = {
+		limit = {
+			OR = {
+				has_idea = TBK_confusing_war
+				FROM = { has_idea = TBK_confusing_war }
+			}
+		}
+		NOT = {
+			has_idea = TBK_confusing_war
+			FROM = { has_idea = TBK_confusing_war }
 		}
 	}
 }

@@ -35,7 +35,7 @@ ideologies = {
 			harmonic_magocracy = {
 				can_be_randomly_selected = no
 			}
-      		religios_pacifism = {
+			social_banditry = {
 				can_be_randomly_selected = no
 			}
 		}
@@ -125,6 +125,9 @@ ideologies = {
 				can_be_randomly_selected = no
 			}
 			juche = {
+				can_be_randomly_selected = no
+			}
+			dengism = {
 				can_be_randomly_selected = no
 			}
 		}
@@ -222,10 +225,7 @@ ideologies = {
 			esotericism = {
 				can_be_randomly_selected = no
 			}
-			surveillance_state = {
-				can_be_randomly_selected = no
-			}
-			temporary = {
+			celestial_cult = {
 				can_be_randomly_selected = no
 			}
 		}
@@ -284,7 +284,7 @@ ideologies = {
 			}
 			technocracy = {
 				can_be_randomly_selected = no
-			}
+			}		
 			libertarianism = {
 				can_be_randomly_selected = no
 			}
@@ -298,10 +298,13 @@ ideologies = {
 				can_be_randomly_selected = no
 			}
 			holy_order_n = {
-			    can_be_randomly_selected = no
+				can_be_randomly_selected = no
 			}
 			theocracy_subideology = {
-			    can_be_randomly_selected = no
+				can_be_randomly_selected = no
+			}
+			commonwealth_ideology = {
+				can_be_randomly_selected = no
 			}
 			conservative_liberalism = {
 				can_be_randomly_selected = no
