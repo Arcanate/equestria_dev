@@ -35,6 +35,9 @@ ideologies = {
 			harmonic_magocracy = {
 				can_be_randomly_selected = no
 			}
+      		religios_pacifism = {
+				can_be_randomly_selected = no
+			}
 		}
 
 		dynamic_faction_names = {
@@ -219,7 +222,10 @@ ideologies = {
 			esotericism = {
 				can_be_randomly_selected = no
 			}
-			celestial_cult = {
+			surveillance_state = {
+				can_be_randomly_selected = no
+			}
+			temporary = {
 				can_be_randomly_selected = no
 			}
 		}

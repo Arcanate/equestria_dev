@@ -2714,8 +2714,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/Penguin_Race.tga"
 	}
 	SpriteType = {
+		name = "GFX_idea_cat_race"
+		texturefile = "gfx/interface/ideas/Cat_Race.tga"
+	}
+	SpriteType = {
+		name = "GFX_idea_camel_race"
+		texturefile = "gfx/interface/ideas/Camel_Race.tga"
+	}
+	SpriteType = {
 		name = "GFX_idea_dragon_race"
 		texturefile = "gfx/interface/ideas/Dragon_Race.tga"
+	}
+	SpriteType = {
+		name = "GFX_idea_giraffe_race"
+		texturefile = "gfx/interface/ideas/Giraffe_Race.tga"
 	}
 	SpriteType = {
 		name = "GFX_idea_undead_race"
@@ -2730,12 +2742,52 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/Yak_Race.tga"
 	}
 	SpriteType = {
+		name = "GFX_idea_zebra_race"
+		texturefile = "gfx/interface/ideas/Zebra_Race.tga"
+	}
+	SpriteType = {
 		name = "GFX_idea_polar_race"
 		texturefile = "gfx/interface/ideas/Polar_Race.tga"
 	}
 	spriteType = {
 		name = "GFX_idea_diamond_dog_race"
 		texturefile = "gfx/interface/ideas/diamond_dog_race.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_kirin_race"
+		texturefile = "gfx/interface/ideas/KIR/kirin_race.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_llama_race"
+		texturefile = "gfx/interface/ideas/Llama_race.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hippogriff_race"
+		textureFile = "gfx/interface/ideas/hippogriff_race.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_harpy_race"
+		textureFile = "gfx/interface/ideas/harpy_race.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_centaur_race"
+		textureFile = "gfx/interface/ideas/centaur_race.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_gargoyle_race"
+		textureFile = "gfx/interface/ideas/gargoyle_race.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_donkey_race"
+		textureFile = "gfx/interface/ideas/donkey_race.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_horse_race"
+		textureFile = "gfx/interface/ideas/horse_race.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_yeti_race"
+		textureFile = "gfx/interface/ideas/yeti_race.tga"
 	}
 	SpriteType = {
 		name = "GFX_idea_idol_of_boreas_lost"
@@ -4785,6 +4837,18 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/The_Storms_Power.dds"
 	}
 	SpriteType = {
+		name = "GFX_idea_GFS_kommando_hat"
+		texturefile = "gfx/interface/ideas/GFS_kommando_hat.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_PAP_Legionary_Spirit"
+		texturefile = "gfx/interface/ideas/PAP_Legionary_Spirit.tga"
+	}
+	SpriteType = {
+		name = "GFX_idea_ROA_senate_divide"
+		texturefile = "gfx/interface/ideas/ROA_senate_divide.dds"
+	}
+	SpriteType = {
 		name = "GFX_idea_slavery"
 		texturefile = "gfx/interface/ideas/idea_slavery.dds"
 	}
@@ -5592,6 +5656,10 @@ spriteTypes = {
 		name = "GFX_idea_chn_fylifa"
 		texturefile = "gfx/interface/ideas/chn_fylifa.dds"
 	}
+	SpriteType = {
+		name = "GFX_idea_HIP_silverstream"
+		texturefile = "gfx/interface/ideas/HIP/idea_HIP_silverstream.dds"
+    }
 	SpriteType = {
 		name = "GFX_idea_chn_legus"
 		texturefile = "gfx/interface/ideas/chn_legus.dds"
@@ -6866,6 +6934,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/horse_advisor.dds"
 	}
 	SpriteType = {
+		name = "GFX_idea_KIR_silence"
+		texturefile = "gfx/interface/ideas/KIR/KIR_silence.dds"
+	}
+	SpriteType = {
 		name = "GFX_idea_FRN_francis_ns"
 		texturefile = "gfx/interface/ideas/FRN_francis_ns.tga"
 	}
@@ -6925,6 +6997,14 @@ spriteTypes = {
 		name = "GFX_idea_FRN_prelate_chick"
 		texturefile = "gfx/interface/ideas/FRN_cute_prelate.tga"
 	}
+    SpriteType = {
+		name = "GFX_idea_CTL_da_chonker"
+		texturefile = "gfx/interface/ideas/CTL_da_chonker.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_CTL_da_twink"
+		texturefile = "gfx/interface/ideas/CTL_da_twink.dds"
+	}
 	SpriteType = {
 		name = "GFX_idea_ZES_tank_manufacturer"
 		texturefile = "gfx/interface/ideas/Kasa_tank.tga"
@@ -6977,6 +7057,22 @@ spriteTypes = {
 		name = "GFX_idea_WIT_trade_post_idea"
 		texturefile = "gfx/interface/ideas/Wittenlandic_Trade_Post.tga"
     }
+	SpriteType = {
+		name = "GFX_idea_unknown_advisor_kirin_male"
+		texturefile = "gfx/interface/ideas/KIR/unknown_advisor_kirin_male.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_unknown_advisor_kirin_female"
+		texturefile = "gfx/interface/ideas/KIR/unknown_advisor_kirin_female.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_unknown_advisor_kirin_male_alternative"
+		texturefile = "gfx/interface/ideas/KIR/unknown_advisor_kirin_male_alternative.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_unknown_advisor_kirin_female_alternative"
+		texturefile = "gfx/interface/ideas/KIR/unknown_advisor_kirin_female_alternative.dds"
+	}
 	spriteType = {
 		name = "GFX_idea_undead_economy"
 		texturefile = "gfx/interface/ideas/undead_economy.dds"
@@ -7160,6 +7256,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_EQS_sweet_apple_acres"
 		texturefile = "gfx/interface/ideas/Sweet_Apple_Acres.tga"
+	}
+	SpriteType = {
+		name = "GFX_idea_zebra_slaves"
+		texturefile = "gfx/interface/ideas/zebra_slaves.tga"
 	}
 	SpriteType = {
 		name = "GFX_idea_EQS_equestrian_railway"
@@ -8528,5 +8628,143 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_EQS_UESR_reintegration"
 		textureFile = "gfx/interface/ideas/UESR/EQS_UESR_reintegration.tga"
+	}
+	SpriteType = {
+		name = "GFX_idea_CTL_hira_idea"
+		texturefile = "gfx/interface/ideas/CTL_hira_idea.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_CTL_westfelt_idea"
+		texturefile = "gfx/interface/ideas/CTL_westfelt_idea.dds"
+	}
+	
+	SpriteType = {
+			name = "GFX_idea_CTL_jeremias_idea"
+			texturefile = "gfx/interface/ideas/CTL_jeremias_idea.dds"
+		}
+		
+	SpriteType = {
+			name = "GFX_idea_CTL_sanjay_idea"
+			texturefile = "gfx/interface/ideas/CTL_sanjay_idea.dds"
+		}
+		
+	SpriteType = {
+			name = "GFX_idea_CTL_rashanth_idea"
+			texturefile = "gfx/interface/ideas/CTL_rashanth_idea.dds"
+		}
+		
+	SpriteType = {
+			name = "GFX_idea_CTL_doin_ya_mom_idea"
+			texturefile = "gfx/interface/ideas/CTL_doin_ya_mom_idea.dds"
+		}
+		
+	SpriteType = {
+			name = "GFX_idea_CTL_bhushan_idea"
+			texturefile = "gfx/interface/ideas/CTL_bhushan_idea.dds"
+		}
+		
+	SpriteType = {
+			name = "GFX_idea_CTL_jakob_idea"
+			texturefile = "gfx/interface/ideas/CTL_jakob_idea.dds"
+		}
+	SpriteType = {
+			name = "GFX_idea_hindagr"
+			texturefile = "gfx/interface/ideas/hindagr.tga"
+		}
+	SpriteType = {
+			name = "GFX_idea_hindalaw"
+			texturefile = "gfx/interface/ideas/hindalaw.tga"
+		}
+	SpriteType = {
+			name = "GFX_idea_hindiagoddess"
+			texturefile = "gfx/interface/ideas/hindiagoddess.tga"
+		}
+	SpriteType = {
+			name = "GFX_idea_hindlib"
+			texturefile = "gfx/interface/ideas/hindlib.tga"
+		}
+	SpriteType = {
+			name = "GFX_idea_hindlib1"
+			texturefile = "gfx/interface/ideas/hindlib1.tga"
+		}
+	SpriteType = {
+			name = "GFX_idea_jakobded"
+			texturefile = "gfx/interface/ideas/jakobded.tga"
+		}
+	SpriteType = {
+			name = "GFX_idea_landfocus"
+			texturefile = "gfx/interface/ideas/landfocus.tga"
+		}
+	SpriteType = {
+			name = "GFX_idea_neglect"
+			texturefile = "gfx/interface/ideas/neglect.tga"
+		}
+	SpriteType = {
+			name = "GFX_idea_sicklehind"
+			texturefile = "gfx/interface/ideas/sicklehind.tga"
+		}
+	SpriteType = {
+			name = "GFX_idea_moralcomp"
+			texturefile = "gfx/interface/ideas/moralcomp.tga"
+	}
+	SpriteType = {
+			name = "GFX_idea_advisor_benjen"
+			texturefile = "gfx/interface/ideas/advisor_benjen.tga"
+	}
+	SpriteType = {
+			name = "GFX_idea_CTL_AIR"
+			texturefile = "gfx/interface/ideas/CTL_AIR.tga"
+	}
+	SpriteType = {
+			name = "GFX_idea_CTL_brain"
+			texturefile = "gfx/interface/ideas/CTL_brain.tga"
+	}
+	SpriteType = {
+			name = "GFX_idea_CTL_bureau"
+			texturefile = "gfx/interface/ideas/CTL_bureau.tga"
+	}
+	SpriteType = {
+			name = "GFX_idea_CTL_doctrineN1"
+			texturefile = "gfx/interface/ideas/CTL_doctrineN1.tga"
+	}
+	SpriteType = {
+			name = "GFX_idea_CTL_doctrineN2"
+			texturefile = "gfx/interface/ideas/CTL_doctrineN2.tga"
+	}
+	SpriteType = {
+			name = "GFX_idea_CTL_doctrineR1"
+			texturefile = "gfx/interface/ideas/CTL_doctrineR1.tga"
+	}
+	SpriteType = {
+			name = "GFX_idea_CTL_doctrineR2"
+			texturefile = "gfx/interface/ideas/CTL_doctrineR2.tga"
+	}
+	SpriteType = {
+			name = "GFX_idea_CTL_magic"
+			texturefile = "gfx/interface/ideas/CTL_magic.tga"
+	}
+	SpriteType = {
+			name = "GFX_idea_CTL_OLEBOOK"
+			texturefile = "gfx/interface/ideas/CTL_OLEBOOK.tga"
+	}
+	SpriteType = {
+			name = "GFX_idea_CTL_OLETACTICS"
+			texturefile = "gfx/interface/ideas/CTL_OLETACTICS.tga"
+	}
+	SpriteType = {
+			name = "GFX_idea_CTL_RECON"
+			texturefile = "gfx/interface/ideas/CTL_RECON.tga"
+	}
+	SpriteType = {
+			name = "GFX_idea_dagger_paper"
+			texturefile = "gfx/interface/ideas/dagger_paper.tga"
+	}
+	SpriteType = {
+			name = "GFX_idea_hot_jungle"
+			texturefile = "gfx/interface/ideas/hot_jungle.tga"
+	}
+	SpriteType = {
+			name = "GFX_idea_medic_bag"
+			texturefile = "gfx/interface/ideas/medic_bag.tga"
 	}
 }

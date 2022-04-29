@@ -292,9 +292,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = celestial_cult
+			has_country_leader_ideology = surveillance_state
 		}
-		localization_key = celestial_cult
+		localization_key = surveillance_state
 	}
 	text = {
 		localization_key = fascism
