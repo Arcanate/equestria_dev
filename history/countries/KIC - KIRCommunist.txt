@@ -1,0 +1,116 @@
+﻿set_stability = 0.55
+set_war_support = 0.75
+
+set_research_slots = 2
+set_technology = {
+	melee_weapons = 1
+	melee_weapons1 = 1
+	pre_gw_artillery = 1
+	kirin_race = 1
+	airships1 = 1
+}
+
+actually_fix_weapon_techs = yes
+
+set_cosmetic_tag = KIR_communism
+
+add_ideas = {
+	no_poverty
+	undisturbed_isolation
+	closed_economy
+	lack_of_scientists1
+	agrarian_society
+	poor_science_base
+}
+
+set_popularities = {
+
+	democratic = 11
+
+	fascism = 1
+
+	communism = 82
+
+	neutrality = 6
+
+}
+	
+	
+set_politics = {
+	ruling_party = communism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_party_name = {
+	ideology = democratic 
+	long_name = KIR_communism_party_3_long
+	name = KIR_communism_party_3
+}
+
+
+set_party_name = {
+	ideology = fascism 
+	long_name = KIR_communism_party_4_long
+	name = KIR_communism_party_4  
+}
+
+
+set_party_name = {
+	ideology = communism 
+	long_name = KIR_communism_party_1_long
+	name = KIR_communism_party_1
+}
+
+set_party_name = {
+	ideology = neutrality 
+	long_name = KIR_communism_party_2_long
+	name = KIR_communism_party_2 
+}
+
+recruit_character = KIR_dayspring_rose
+recruit_character = KIR_kindling_flash
+recruit_character = KIC_ember_glow
+recruit_character = KIC_pol_1
+recruit_character = KIC_pol_2
+recruit_character = KIC_army_chief_1
+recruit_character = KIR_air_chief_4
+recruit_character = KIC_air_chief_1
+recruit_character = KIC_navy_chief_1
+recruit_character = KIC_theorist_1
+recruit_character = KIC_rising_sun_u
+recruit_character = COC_common_senate
+recruit_character = KIC_flame_lily
+random_character = {
+	limit = { is_character = KIR_dayspring_rose }
+	save_global_event_target_as = KIR_dayspring_rose
+}
+random_character = {
+	limit = { is_character = KIR_kindling_flash }
+	save_global_event_target_as = KIR_kindling_flash
+}
+random_character = {
+	limit = { is_character = KIC_pol_1 }
+	save_global_event_target_as = KIC_pol_1
+}
+random_character = {
+	limit = { is_character = KIC_pol_2 }
+	save_global_event_target_as = KIC_pol_2
+}
+random_character = {
+	limit = { is_character = KIC_army_chief_1 }
+	save_global_event_target_as = KIC_army_chief_1
+}
+random_character = {
+	limit = { is_character = KIC_air_chief_1 }
+	save_global_event_target_as = KIC_air_chief_1
+}
+random_character = {
+	limit = { is_character = KIC_theorist_1 }
+	save_global_event_target_as = KIC_theorist_1
+}
+random_character = {
+	limit = { is_character = COC_common_senate }
+	save_global_event_target_as = COC_common_senate
+}

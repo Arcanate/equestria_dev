@@ -1,0 +1,301 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_KIR_SG_BG"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIR_SG_BG.tga"
+	}
+	spriteType = {
+		name = "GFX_KIR_SG_ENTRY"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIR_SG_ENTRY.tga"
+	}
+	spriteType = {
+		name = "GFX_KIR_SG_TAB"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIR_SG_TAB.tga"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_KIR_SG_BUTTON"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIR_SG_BUTTON.tga"
+	}
+	spriteType = {
+		name = "GFX_KIR_BUTTON_TAB"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIR_BUTTON_TAB.tga"
+	}
+	spriteType = {
+		name = "GFX_KIR_FOCUS_CRUDE_STRIP"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIR_FOCUS_CRUDE_STRIP.tga"
+	}
+	spriteType = {
+		name = "GFX_KIR_AUTUMN_BLAZE_TAB"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIR_AUTUMN_BLAZE_TAB.tga"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_KIR_FICKLE_CURRENT_TAB"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIR_FICKLE_CURRENT_TAB.tga"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_KIR_WINTER_FROST_TAB"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIR_WINTER_FROST_TAB.tga"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_KIR_ROARING_FIRE_TAB"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIR_ROARING_FIRE_TAB.tga"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_KIR_RISING_SUN_TAB"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIR_RISING_SUN_TAB.tga"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_KIR_DAYSPRING_ROSE_TAB"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIR_DAYSPRING_ROSE_TAB.tga"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_KIR_MAYFLOWER_BLOOM_TAB"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIR_MAYFLOWER_BLOOM_TAB.tga"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_KIS_progress_bar"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIS_progress_bar.tga"
+	}
+	progressbartype = {
+		name = "GFX_KIS_progress_bar"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		texturefile1 = "gfx/interface/ideas/KIR/SG/KIS_progress_bar.tga"
+		texturefile2 = "gfx/interface/ideas/KIR/SG/KIS_progress_bar_bg.tga"
+		size = { x = 333 y = 33 }
+		effectFile = "gfx/FX/progress_startend.lua"
+	}
+	spriteType = {
+		name = "GFX_KIS_progress_bar_frame"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIS_progress_bar_frame.tga"
+	}
+	spriteType = {
+		name = "GFX_KIS_state_corporation_frame"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIS_state_corporation_frame.tga"
+	}
+	spriteType = {
+		name = "GFX_KIS_state_corporation_frame_ringlet"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIS_state_corporation_frame_ringlet.tga"
+	}
+	spriteType = {
+		name = "GFX_KIS_state_corporation_frame_add"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIS_state_corporation_frame_add.tga"
+	}
+	spriteType = {
+		name = "GFX_KIS_state_corporation_frame_bg"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIS_state_corporation_frame_bg.tga"
+	}
+	spriteType = {
+		name = "GFX_KIC_STATE_BUTTON_SWORD"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIC_STATE_BUTTON_SWORD.tga"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_KIC_STATE_BUTTON_PREPARATION"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIC_STATE_BUTTON_PREPARATION.tga"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_KIC_STATE_BUTTON_ABLAZE"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIC_STATE_BUTTON_ABLAZE.tga"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_KIC_STATE_BUTTON_MILITIA"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIC_STATE_BUTTON_MILITIA.tga"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_KIC_STATE_BUTTON_TAB"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIC_STATE_BUTTON_TAB.tga"
+	}
+	spriteType = {
+		name = "GFX_rising_fire_insurgency"
+		texturefile = "gfx/interface/ideas/KIR/rising_fire_insurgency.tga"
+	}
+	spriteType = {
+		name = "GFX_KIR_PS_BG"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIR_PS_BG.tga"
+	}
+	spriteType = {
+		name = "GFX_KIR_PS_bar_frame"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIR_PS_bar_frame.tga"
+	}
+	spriteType = {
+		name = "GFX_KIR_PS_RS"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIR_PS_RS.tga"
+	}
+	spriteType = {
+		name = "GFX_KIR_PS_WF"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIR_PS_WF.tga"
+	}
+	spriteType = {
+		name = "GFX_KIR_PS_ball_red_frame"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIR_PS_ball_red_frame.tga"
+	}
+	spriteType = {
+		name = "GFX_KIR_PS_ball_red"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIR_PS_ball_red.tga"
+	}
+	spriteType = {
+		name = "GFX_KIR_PS_ball_blue_frame"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIR_PS_ball_blue_frame.tga"
+	}
+	spriteType = {
+		name = "GFX_KIR_PS_ball_blue"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIR_PS_ball_blue.tga"
+	}
+	progressbartype = {
+		name = "GFX_KIR_power_struggle_bar"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		texturefile1 = "gfx/interface/ideas/KIR/SG/KIR_PS_bar_blue.tga"
+		texturefile2 = "gfx/interface/ideas/KIR/SG/KIR_PS_bar_red.tga"
+		size = { x = 241 y = 14 }
+		effectFile = "gfx/FX/progress_startend.lua"
+	}
+	spriteType = {
+		name = "GFX_KIR_PS_bar"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIR_PS_bar.tga"
+	}
+	spriteType = {
+		name = "GFX_COC_PS_DS"
+		texturefile = "gfx/interface/ideas/KIR/SG/COC_PS_DS.tga"
+	}
+	spriteType = {
+		name = "GFX_COC_PS_KF"
+		texturefile = "gfx/interface/ideas/KIR/SG/COC_PS_KF.tga"
+	}
+	spriteType = {
+		name = "GFX_COC_PS_DS_Progress"
+		texturefile = "gfx/interface/ideas/KIR/SG/COC_PS_DS_Progress.tga"
+		noOfFrames = 8
+	}
+	spriteType = {
+		name = "GFX_COC_PS_KF_Progress"
+		texturefile = "gfx/interface/ideas/KIR/SG/COC_PS_KF_Progress.tga"
+		noOfFrames = 8
+	}
+	spriteType = {
+		name = "GFX_KIC_STATE_BANNER_JURISDICTION_BG"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIC_STATE_BANNER_JURISDICTION_BG.tga"
+	}
+	spriteType = {
+		name = "GFX_KIC_STATE_BANNER_JURISDICTION_LOCKED_BOX"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIC_STATE_BANNER_JURISDICTION_LOCKED_BOX.tga"
+	}
+	spriteType = {
+		name = "GFX_FRV_FOCUS_FRAME"
+		texturefile = "gfx/interface/ideas/KIR/SG/FRV_FOCUS_FRAME.tga"
+	}
+	spriteType = {
+		name = "GFX_KIR_FRV_FALLING_CRIMSON_FRAME"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIR_FRV_Crimson_frame.tga"
+	}
+	spriteType = {
+		name = "GFX_KIR_FRV_FALLING_CRIMSON_CITY"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIR_FRV_Crimson_city.tga"
+	}
+	SpriteType = {
+		name = "GFX_KIR_FRV_FALLING_CRIMSON1_ANIM"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIR_FRV_Crimson_bg.tga"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/ideas/KIR/SG/KIR_FRV_Crimson_mask.tga"
+			animationtexturefile = "gfx/interface/ideas/KIR/SG/KIR_FRV_Crimson_1.tga"
+			animationrotation = 210
+			animationlooping = yes
+			animationtime = 50
+			animationdelay = 0.0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0 y = 0 }
+			animationtexturescale = { x = 0.7 y = 0.7 } 
+		}
+	
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_KIR_FRV_FALLING_CRIMSON2_ANIM"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIR_FRV_Crimson_bg.tga"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+		
+		animation = {
+			animationmaskfile = "gfx/interface/ideas/KIR/SG/KIR_FRV_Crimson_mask.tga"
+			animationtexturefile = "gfx/interface/ideas/KIR/SG/KIR_FRV_Crimson_2.tga"
+			animationrotation = 220
+			animationlooping = yes
+			animationtime = 30	
+			animationdelay = 0.0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0 y = 0 }
+			animationtexturescale = { x = 0.7 y = 0.7 } 
+		}
+	
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_KIR_FRV_FALLING_ASH1_ANIM"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIR_FRV_Crimson_bg.tga"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+		
+		animation = {
+			animationmaskfile = "gfx/interface/ideas/KIR/SG/KIR_FRV_Ash_mask.tga"
+			animationtexturefile = "gfx/interface/ideas/KIR/SG/KIR_FRV_Ash.tga"
+			animationrotation = 200
+			animationlooping = yes
+			animationtime = 120	
+			animationdelay = 0.0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0 y = 0 }
+			animationtexturescale = { x = 1 y = 1 } 
+		}
+	
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_KIR_FRV_FALLING_ASH2_ANIM"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIR_FRV_Crimson_bg.tga"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+		
+		animation = {
+			animationmaskfile = "gfx/interface/ideas/KIR/SG/KIR_FRV_Ash_mask.tga"
+			animationtexturefile = "gfx/interface/ideas/KIR/SG/KIR_FRV_Ash.tga"
+			animationrotation = 240
+			animationlooping = yes
+			animationtime = 150	
+			animationdelay = 0.0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0 y = 0 }
+			animationtexturescale = { x = 1.5 y = 1.5 } 
+		}
+	
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_KIR_FRV_Banner"
+		texturefile = "gfx/interface/ideas/KIR/SG/KIR_FRV_Banner.tga"
+	}
+	spriteType = {
+		name = "GFX_KIR_FRV_REVOLT_FLAG"
+		texturefile = "gfx/flags/FRV_revolt.tga"
+	}
+	spriteType = {
+		name = "GFX_KIR_FRV_COMMONWEALTH_FLAG"
+		texturefile = "gfx/flags/FRV_commonwealth.tga"
+	}
+	spriteType = {
+		name = "GFX_KIR_FRV_COLLECTIVE_FLAG"
+		texturefile = "gfx/flags/FRV_collective.tga"
+	}
+}
